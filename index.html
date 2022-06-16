@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <script src="https://kit.fontawesome.com/1588eef65c.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h2>Simple, traffic-based pricing</h2>
+    <p>Sign-up for our 30-day trial. No credit card required. </p>
+  </header>
+  
+  <section>
+    <h4> 100K Pageviews</h4>
+
+    <div class="slidecontainer">
+      <input type="range" min="1" max="100" value="1" class="slider" id="myRange">
+      <!-- <p>value: <span id="value"></span></p> -->
+    </div>
+
+    <article class="flex pos">
+      <h2>$16.00</h2>
+      <p>/month</p>
+    </article>
+    <article class="flex flex2">
+      <p>Monthly Billing</p>
+      <img src="images/switch.png" alt="toggle" class="toggle">
+      <!-- <i class="fa-solid fa-toggle-off"></i> -->
+      <p> Yearly Billing <small> <b class="remove-">-</b>25% <b class="removeDiscount"> discount</b></small></p>
+    </article>
+
+  
+
+   <article class="deskflex">
+     <article class="align">
+        <article class="flex flex3">
+          <img src="images/icon-check.svg" alt="checker" class="checker">
+          <p>Unlimited websites</p>
+       </article>
+       <article class="flex flex3">
+         <img src="images/icon-check.svg" alt="checker" class="checker">
+         <p>100% data ownership</p>
+        </article>
+
+      <article class="flex flex3">
+        <img src="images/icon-check.svg" alt="checker" class="checker">
+        <p>Email reports</p>
+      </article>
+
+     </article>
+        
+      <button>Start my trial</button>
+   </article> 
+   
+  </section>
+ 
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
